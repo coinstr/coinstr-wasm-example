@@ -1,0 +1,14 @@
+[package]
+name = "coinstr-wasm-example"
+version = "0.1.0"
+edition = "2021"
+readme = "README.md"
+license = "MIT"
+keywords = ["yew", "trunk"]
+categories = ["gui", "wasm", "web-programming"]
+
+[dependencies]
+coinstr-core = { git = "https://github.com/coinstr/coinstr", rev = "7cd35279eb7dab5420373eefbc301cdac2f8cb53" }
+wasm-bindgen-futures = "0.4"
+wasm-logger = "0.2"
+yew = { version = "0.20", features = ["csr"] }
